@@ -11,11 +11,19 @@
 ## Setup and dependencies 
 
 Dependencies:
-- python 3.6
-- pytorch >= 1.2.0
+- python 3.9
 - numpy
-- RDkit = 2019.03.3.0
-- pandas
+- dgl-cu113>=100.1.5
+- torch>=2.0.0+cu118
+- torch-cluster>=1.6.1+pt20cu118
+- torch-geometri>= 2.2.0
+- torch-scatter>=2.1.1+pt20cu118
+- torch-sparse>=0.6.17+pt20cu118
+- torch-tb-profiler>=0.4.1
+- rdkit>=2023.3.3
+- rdkit-pypi>=2022.9.5
+- pandas>=1.4.4
+- scikit-learn>=1.0.2
 - Gensim >=3.4.0
 
 ### Datasets
